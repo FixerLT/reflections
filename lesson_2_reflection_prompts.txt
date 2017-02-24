@@ -1,15 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How is the staging area different from the working directory and the repository?
+
+staging make commits for files sepparately
+What value do you think it offers?
+of offers support for the concept of one logical change per commit
+
+
+
+How can you use the staging area to make sure you have one commit per logicalchange?
+
+I can add a program to staging area after every logical change of a program, so when the logical change will affect all programms in repository, it's a logical change of a repository and it's the time to commit
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches would probably be helpful, when I need to do something on a project to test, but not to affect the project. Branches will let me do it without any redundant work to copypaste repository or risk not to get the previous state of the project
+
+
 How do the diagrams help you visualize the branch structure?
+
+Since git's history is usually not linear, diagrams shows, pretty well, which version points to which parent
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
