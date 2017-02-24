@@ -28,4 +28,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I'd change separate branch, when i work on some feature that is not ended completely and by the end of the work on the feature, i'd implement it to master branch, so i'll separate working on feature and providing feature that will help me concentrate on one task every moment of work.
